@@ -19,7 +19,7 @@ print("Displaying examples demonstraing various string methods:\n")
 print("capitalize(): ", string.capitalize())	                 # Converts the first character to upper case
 print("casefold(): ", string.casefold())                       #	Converts string into lower case
 print("center(): ", string.center(string_length, character))   # Returns a centered string
-print("count(): ", string.count(value, 5, 7))	           # Returns the number of times a specified value occurs in a string
+print("count(): ", string.count(value, 5, 7))	                 # Returns the number of times a specified value occurs in a string
 print("encode(): ", txt.encode(encoding="ascii", errors="backslashreplace")) # Returns an encoded version of the string
 print("endswith(): ", string.endswith(value_to_check, 20, 30)) # Returns true if the string ends with the specified value
 print("expandtabs(): ", expand_tab_text.expandtabs(2))	       # Sets the tab size of the string
